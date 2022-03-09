@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Chair",
+        "causes": [],
+        "prob_table": {
+            "": 0.8
+        }
+    },
+    {
+        "name": "Sport",
+        "causes": [],
+        "prob_table": {
+            "": 0.02
+        }
+    },
+    {
+        "name": "Back",
+        "causes": ["Chair", "Sport"],
+        "prob_table": {
+            "11": 0.9,
+            "10": 0.2,
+            "01": 0.9,
+            "00": 0.01
+        }
+    },
+    {
+        "name": "Ache",
+        "causes": ["Back"],
+        "prob_table": {
+            "1": 0.7,
+            "0": 0.1
+        }
+    }
+]

@@ -1,5 +1,5 @@
 # AI basics
-Some basic implementation of algorithms for studies
+Some implementation of simple algorithms for studies
 
  - Evolution algorithm: https://github.com/karolrogozinski/ml_basics/tree/main/Algorytmy%20ewolucyjne
  - Bayes generator: https://github.com/karolrogozinski/ml_basics/tree/main/Bayes
